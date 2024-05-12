@@ -11,7 +11,7 @@ def find_least_central_node(G):
     return min(degree_centrality, key=degree_centrality.get)
 
 
-def visualize_paths_on_same_figure(G, start_node):
+def visualize_dfs_bfs_paths_from_node(G, start_node):
     
     dfs_path = nx.dfs_tree(G, source=start_node)
     bfs_path = nx.bfs_tree(G, source=start_node)
