@@ -11,5 +11,5 @@ if __name__ == '__main__':
     start_node = find_least_central_node(G)
     visualize_dfs_bfs_paths_from_node(G, start_node)
     # Завдання 3
-    print("Завдання 3: пошук найкоротших шляхів з вершини {start_node}")
+    print(f"Завдання 3: пошук найкоротших шляхів з вершини {start_node}")
     print_shortest_paths_from_node(G, start_node)
